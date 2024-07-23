@@ -6,6 +6,35 @@
   padding: 6rem;
   min-height: 100vh;
 }
+.button{
+  padding: 10px;
+  border-radius: var(--border-radius);
+  background-color: rgba(var(--callout-rgb));;
+  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+  margin: 4px;
+  &:hover{
+    border: 2px solid rgba(var(--callout-border-rgb), 0.3);
+  }
+  &:active{
+    background-color: rgba(var(--background-start-rgb), 1);
+  }
+}
+.buttons{
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.input{
+  padding:10px;
+  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+  border-radius: var(--border-radius);
+  background-color:rgba(var(--card-rgb), 0)
+}
+.label{
+  margin: 10px 0px;
+
+}
+
 
 .description {
   display: inherit;
@@ -49,8 +78,8 @@
 .card {
   padding: 1rem 1.2rem;
   border-radius: var(--border-radius);
-  background: rgba(var(--card-rgb), 0);
-  border: 1px solid rgba(var(--card-border-rgb), 0);
+  background: rgba(var(--card-rgb), 0.1);
+  border: 1px solid rgba(var(--card-border-rgb), 0.15);
   transition: background 200ms, border 200ms;
 }
 
